@@ -35,7 +35,7 @@ const Footer = () => {
 
               <div className="mt-6 flex items-center gap-3">
                 <a
-                  href="https://www.instagram.com/goldenliora/"
+                  href="https://www.instagram.com/goldenlioratr/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-[rgba(199,155,67,0.28)] bg-white/[0.54] text-[var(--lale-gold)] shadow-sm backdrop-blur-xl transition-colors hover:bg-white/80"
@@ -44,14 +44,14 @@ const Footer = () => {
                   <FiInstagram className="h-4 w-4" />
                 </a>
                 <a
-                  href="tel:9999999"
+                  href="tel:+905019472856"
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-[rgba(199,155,67,0.28)] bg-white/[0.54] text-[var(--lale-gold)] shadow-sm backdrop-blur-xl transition-colors hover:bg-white/80"
                   title="Telefon"
                 >
                   <FiPhone className="h-4 w-4" />
                 </a>
                 <a
-                  href="https://www.instagram.com/goldenliora/"
+                  href="https://www.instagram.com/goldenlioratr/"
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-[rgba(199,155,67,0.28)] bg-white/[0.54] text-[var(--lale-gold)] shadow-sm backdrop-blur-xl transition-colors hover:bg-white/80"
                   title="Instagram"
                 >
@@ -96,19 +96,19 @@ const Footer = () => {
                 </li>
                 <li className="flex items-center gap-3">
                   <FiPhone className="h-4 w-4 text-[var(--lale-gold)]" />
-                  <a href="tel:9999999" className="transition-colors hover:text-[var(--lale-gold)]">
-                    9999999
+                  <a href="tel:+905019472856" className="transition-colors hover:text-[var(--lale-gold)]">
+                    +90 501 947 28 56
                   </a>
                 </li>
                 <li className="flex items-center gap-3">
                   <FiInstagram className="h-4 w-4 text-[var(--lale-gold)]" />
                   <a
-                    href="https://www.instagram.com/goldenliora/"
+                    href="https://www.instagram.com/goldenlioratr/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="transition-colors hover:text-[var(--lale-gold)]"
                   >
-                    @goldenliora
+                    @goldenlioratr
                   </a>
                 </li>
               </ul>

@@ -5,14 +5,14 @@ import { FiArrowUpRight, FiInstagram, FiMapPin, FiPhone } from 'react-icons/fi';
 const contacts = [
   {
     label: 'Telefon',
-    value: '9999999',
-    href: 'tel:9999999',
+    value: '+90 501 947 28 56',
+    href: 'tel:+905019472856',
     icon: FiPhone,
   },
   {
     label: 'Instagram',
-    value: '@goldenliora',
-    href: 'https://www.instagram.com/goldenliora/',
+    value: '@goldenlioratr',
+    href: 'https://www.instagram.com/goldenlioratr/',
     icon: FiInstagram,
   },
   {
@@ -42,7 +42,7 @@ const Contact = () => {
                 Instagram üzerinden yazabilir ya da iletişim formunu doldurabilirsiniz.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                <a href="tel:9999999" className="lale-gold-button gap-3">
+                <a href="tel:+905019472856" className="lale-gold-button gap-3">
                   Hemen Ara
                   <FiPhone className="h-4 w-4" />
                 </a>

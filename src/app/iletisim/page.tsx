@@ -256,7 +256,7 @@ const ContactPage = () => {
                 
                 <div className="space-y-8">
                   {[
-                    { icon: FiPhone, title: "Telefon", value: "9999999", sub: "Randevu & Bilgi Hattı" },
+                    { icon: FiPhone, title: "Telefon", value: "+90 501 947 28 56", sub: "Randevu & Bilgi Hattı" },
                     { icon: FiMail, title: "E-posta", value: "info@goldenliora.com", sub: "7/24 Destek" },
                     { icon: FiMapPin, title: "Adres", value: "Yeşilpınar Mah. Girne Cad. No:18", sub: "Eyüpsultan / İstanbul, Türkiye" },
                     { icon: FiClock, title: "Çalışma Saatleri", value: "09:00 - 20:00", sub: "Pazartesi - Cumartesi (Randevu İle)" }
@@ -306,7 +306,7 @@ const ContactPage = () => {
           <p className="text-[rgba(251,250,246,0.68)] text-lg mb-12 max-w-xl mx-auto">Güzellik ipuçları, yeni uygulamalar ve kampanyalarımızdan ilk siz haberdar olun.</p>
           
           <a 
-            href="https://www.instagram.com/goldenliora/" 
+            href="https://www.instagram.com/goldenlioratr/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-full bg-[var(--lale-gold)] hover:bg-[var(--lale-gold-soft)] px-8 py-4 text-sm font-bold tracking-[0.15em] text-[#2c2738] shadow-[0_16px_34px_rgba(212,175,55,0.2)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"

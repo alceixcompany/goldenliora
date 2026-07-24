@@ -64,8 +64,8 @@ const AboutPage = () => {
             >
               <div className="relative aspect-[4/5] rounded-[48px] overflow-hidden border border-[rgba(212,175,55,0.22)] shadow-2xl">
                 <Image
-                  src="/content/gallery/reception-lounge.png"
-                  alt="Golden Liora Felsefesi"
+                  src="/dukkan_giris.webp"
+                  alt="Golden Liora dükkan girişi"
                   fill
                   className="object-cover"
                 />
@@ -184,7 +184,7 @@ const AboutPage = () => {
                 İLETİŞİME GEÇİN
               </Link>
               <a
-                href="tel:9999999"
+                href="tel:+905019472856"
                 className="lale-outline-button"
               >
                 HEMEN ARA

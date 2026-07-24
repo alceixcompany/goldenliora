@@ -43,7 +43,7 @@ const Hero = () => {
       <div className="sticky top-0 h-screen overflow-hidden bg-black">
         <video
           ref={videoRef}
-          src="/Hero_scrool1-smooth.mp4"
+          src="/hero_scrool_liora.mp4?v=2"
           className="h-full w-full object-cover object-[84%_center] md:object-center"
           muted
           playsInline
