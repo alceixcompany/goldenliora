@@ -138,7 +138,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           .trim();
       };
       
-      const slug = data.slug || createSlug(data.title || '');
+      // Blog sayfası başlıktan üretilen slug ile açılıyor; sitemap de aynı adresi vermeli (ALCEIX)
+      const slug = createSlug(data.title || '');
       
       return {
         url: `${baseUrl}/haberler/${slug}`,
