@@ -1,4 +1,5 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { FiArrowRight, FiCheck } from 'react-icons/fi';
@@ -51,6 +52,30 @@ interface ServiceDetailPageProps {
   params: Promise<{
     slug: string;
   }>;
+}
+
+// SEO: her hizmet sayfasına kendi başlığı, açıklaması ve canonical adresi (önceden /hizmetlerimiz'e işaret ediyordu) (ALCEIX)
+export async function generateMetadata({ params }: ServiceDetailPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const service = servicesData[slug as keyof typeof servicesData];
+  if (!service) return {};
+  const path = '/hizmetlerimiz/' + slug;
+  const title = service.title + ' Eyüpsultan | Golden Liora';
+  const description = service.description + " Golden Liora, Yeşilpınar Mah. Girne Cad. No:18 Eyüpsultan'da randevuyla hizmet verir.";
+  return {
+    title,
+    description,
+    alternates: { canonical: path },
+    openGraph: {
+      type: 'website',
+      title,
+      description,
+      url: 'https://goldenliora.com' + path,
+      siteName: 'Golden Liora',
+      locale: 'tr_TR',
+      images: [{ url: '/banner/golden-liora-hizmetlerimiz-hero.png' }],
+    },
+  };
 }
 
 export default async function ServiceDetailPage({ params }: ServiceDetailPageProps) {
